@@ -1,0 +1,73 @@
+/* Estilização básica */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    
+}
+
+.titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px 0 10px 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 13px 0;
+}
+
+.botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1c6b8a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #144b61;
+}
+
+.resultado {
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+
+.sucesso {
+    color: rgb(17, 138, 17);
+}
+
+.erro {
+    color: rgb(226, 26, 26);
+}
