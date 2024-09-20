@@ -1,4 +1,4 @@
-// Função para gerar a sequência de Fibonacci até o número fornecido
+// Função para gerar a sequência de Fibonacci até o número digitado
 function gerarSequenciaFibonacci(limite) {
     let sequencia = [0, 1];
     let i = 2;
